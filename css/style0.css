@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(206, 231, 226);
+}
+
+h1{
+    text-align: center;
+    color: rgb(30, 116, 185)
+}
+
+h3{
+    text-align: center;
+    color: rgb(33, 113, 179);
+}
+p{
+    text-align: center;
+}
+#regole{
+    width: 500px;
+	height: 400px;
+	margin: 0 auto;
+    font-family: Arial, 'Times New Roman', Times, serif;   
+    color: black;
+}
+h4{
+	text-align: center;
+    color: rgb(33, 113, 179);
+}
+
+#bottone{
+    text-align: center;
+}
+
+.button{
+    background-color: rgb(33, 113, 179);
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 12px;
+      transition: 0.5s;
+}
+    
+.button:hover{
+    background-color: #003399;
+    transition: 0.5s;
+}
+
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(68, 151, 219);
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+
