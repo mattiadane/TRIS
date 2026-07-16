@@ -1,5 +1,3 @@
-const { ipcRenderer } = require("electron");
-
 document.querySelector(".button")
     .addEventListener("click",() => {
         openWindow()
@@ -7,6 +5,6 @@ document.querySelector(".button")
 })
  
 function openWindow() {
-    ipcRenderer.send("secondWindow","request a new window");
+    window.open("html/gioco.html","_blank");
 }
 
